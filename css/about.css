@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+	color: #1a1a1a;
+}
+#section{
+	width: 100%;
+	margin-bottom: 5%;
+}
+#ourcompany{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+#ourcompany h1{
+	text-align: center;
+	margin-bottom: 4%;
+}
+#ourcompanygrid{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5%;
+	font-size: 16px;
+
+}
+#ourcompanygrid div img{
+	width: 100%;
+}
+.sectiongrid{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.sectiongrid h1{
+	text-align: center;
+}
+.othersgrid{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5%;
+	font-size: 16px;
+}
+.inner{
+	padding: 5%;
+	padding-top: 15px;
+	text-align: center;
+	border: 2px solid #f2f2f2;
+	background: linear-gradient(to bottom, #fff 0%, #fff 80%, #f2e6ff 100%);
+	border-radius: 40px 40px 0px 0px;
+}
+.inner:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .8s ease;
+}
+.othersgrid div img{
+	width: 100%;
+	height: 40vh;
+	border-radius: 30px 30px 0px 0px;
+}
+}
+
+.spann{
+		text-align: center;
+	}
+	.p4{
+		text-align: justify;
+	}
+
+	#othersgrid1 div img{
+		width: 100%;
+		height: auto;
+	}
+	.p7{
+		text-align: justify;
+	}
+
+
+
+	@media only screen and (max-width: 320px){
+	#ourcompany h1{
+		margin-bottom: 5%;
+		font-size: 19px;
+	}
+	#ourcompanygrid{
+		grid-template-columns: 1fr ;
+		grid-gap: 2%;
+		font-size: 14px;
+
+	}
+	.others h1{
+		font-size: 19px;
+	}
+	.othersgrid{
+		grid-template-columns: 1fr;
+		grid-gap: 2%;
+		font-size: 14px;
+	}
+	.othersgrid div img{
+		height: 30vh;
+	}
+	}
+
+	@media only screen and (min-width: 321px) and (max-width: 700px){
+	#ourcompany h1{
+		margin-bottom: 5%;
+		font-size: 21px;
+	}
+	#ourcompanygrid{
+		grid-template-columns: 1fr ;
+		grid-gap: 2%;
+		font-size: 16px;
+
+	}
+	.others h1{
+		font-size: 21px;
+	}
+	.othersgrid{
+		grid-template-columns: 1fr;
+		grid-gap: 2%;
+		font-size: 14px;
+	}
+	.othersgrid div img{
+		height: 40vh;
+	}
+	}
+
+	@media only screen and (min-width: 701px) and (max-width: 850px){
+	#ourcompany h1{
+		margin-bottom: 5%;
+		font-size: 21px;
+	}
+	#ourcompanygrid{
+		grid-template-columns: 1fr ;
+		grid-gap: 2%;
+		font-size: 16px;
+
+	}
+	.others h1{
+		font-size: 21px;
+	}
+	.othersgrid{
+		grid-template-columns: 1fr;
+		grid-gap: 2%;
+		font-size: 14px;
+	}
+	.othersgrid div img{
+		height: 40vh;
+	}
+	}

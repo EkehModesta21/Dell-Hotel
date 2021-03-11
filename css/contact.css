@@ -1,0 +1,187 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+section{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#allcontact{
+	width: 70%;
+	margin: 0 auto;
+	color: #1a1a1a;
+}
+#contactform{
+	width: 45%;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+	background-color: #159e7e;
+	display: inline-block;
+}
+#contactform div{
+	margin-bottom: 3%;
+	margin-left: 8%;
+}
+#contactform div p{
+	margin-bottom: 2px;
+}
+#cheader{
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+}
+#cheader h1{
+	margin-right: 10%;
+	font-size: 20px;
+}
+.error{
+	color: red;
+	font-size: 14px;
+	text-align: center;
+}
+.contact{
+	width: 100%;
+	margin-left: 3%;
+
+}
+.contact input{
+	width: 80%;
+	height: 5vh;
+	padding-left: 5px;
+	background-color: #f2f2f2;
+	border: none;
+}
+#message input{
+	height: 20vh;
+	padding-top: -10px;
+}
+#cbutton{
+	width: 100%;
+	margin-top: 10%;
+	text-align: center;
+}
+.buttons{
+	height: 5vh;
+	width: 30%;
+	padding: 5px 10px 5px 10px ;
+	border: none;
+	background-color: #f2f2f2;
+	color: #159e7e;
+	font-size: 14px;
+	margin-right: 15%;
+}
+.buttons:hover{
+	cursor: pointer;
+	background-color: #1a1a1a;
+	color: #fff;
+	transition: all .8s ease;
+
+}
+
+#contactdetails{
+	width: 40%;
+	display: inline-block;
+	margin-left: 13%;
+	vertical-align: top;
+	border: 1px solid #f2f2f2;
+}
+#information{
+	width: 95%;
+	margin: 0 auto;
+
+}
+#texts p{
+	display: inline-block;
+	margin-left: 2%;
+	width: 80%;
+}
+#media{
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 95%;
+
+}
+#media h1{
+	font-size: 18px;
+}
+#msocials{
+	margin-top: 2%;
+	width: 100%;
+	display: inline-block;
+}
+#msocials a{
+	width: 10%;
+	display: inline-block;
+}
+#msocials span{
+	font-size: 25px;
+	color: #1a1a1a;
+	background-color: #fff;
+	border: none;
+	margin-right: %;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 850px){
+
+#allcontact{
+	width: 85%;
+	margin: 0 auto;
+}
+#contactform{
+	width: 100%;
+}
+#contactform div{
+	margin-bottom: 5%;
+	margin-left: 8%;
+}
+.contact input{
+	width: 80%;
+	height: 4vh;
+}
+#message input{
+	height: 15vh;
+	padding-top: -10px;
+}
+#cbutton{
+	width: 100%;
+	margin-top: 10%;
+	text-align: center;
+}
+.buttons{
+	height: 4vh;
+	width: 40%;
+}
+
+#contactdetails{
+	margin-left: 0%;
+	text-align: center;
+}
+#contactdetails{
+	width: 100%;
+	margin-top: 5%;
+}
+#information{
+	width: 95%;
+	margin: 0 auto;
+
+}
+#iheader h1{
+	font-size: 18px;
+}
+#media h1{
+	font-size: 16px;
+}
+#texts p{
+	text-align: left;
+}
+#msocials{
+	margin-top: 2%;
+	width: 100%;
+	display: inline-block;
+}
+#msocials span{
+	font-size: 20px;
+	background-color: none;
+}
+
+}

@@ -1,0 +1,229 @@
+body{
+	margin: 0;
+	background-color: ;
+	width: 100%;
+}
+
+
+/****************************THIS IS FOR THE SECTION*********************************/
+#section{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.sectiongrid{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+	grid-row-gap: 40px;
+}
+.img {
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sectionimages{
+	padding-bottom: 5%;
+	text-align: center;
+	border: 1px solid #f2f2f2;
+	background: linear-gradient(to bottom, #fff 0%, #fff 80%, #f2e6ff 100%);
+}
+.sectionimages:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .8s ease;
+}
+.sectionimages img{
+	width: 100%;
+}
+
+.sectionimages h1{
+	font-size: 16px;
+}
+.sectionimages p{
+	font-size: 14px;
+	text-align: justify;
+	padding: 5px;
+}
+#icons{
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+#icons div{
+	width: 24%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 2%;
+}
+#icons div span{
+	font-size: 20px;
+}
+#icons div p{
+	font-size: 12px;
+}
+#price{
+	text-align: center;
+	font-size: 18px;
+	color: #159e7e;
+}
+#price b{
+	font-size: 20px;
+}
+.buttons{
+	margin-top: 10px;
+	height: 5vh;
+	width: 40%;
+	padding: 5px 10px 5px 10px ;
+	border: none;
+	background-color: #159e7e;
+	color: #fff;
+	font-size: 14px;
+}
+.buttons:hover{
+	cursor: pointer;
+	background-color: #1a1a1a;
+	color: #fff;
+	transition: all .8s ease;
+
+}
+.buttons span{
+	margin-left: 10px;
+	font-size: 17px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 530px){
+#section{
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.sectiongrid{
+	grid-template-columns: 1fr;
+	grid-row-gap: 40px;
+}
+.sectionimages h1{
+	font-size: 14px;
+}
+.sectionimages p{
+	font-size: 12px;
+	padding: 5px;
+}
+#icons{
+	width: 100%;
+}
+#icons div{
+	width: 22%;
+	margin-top: 2%;
+	text-align: center;
+}
+#icons div span{
+	font-size: 14px;
+}
+#icons div p{
+	font-size: 8px;
+	text-align: center;
+}
+#price{
+	text-align: center;
+	font-size: 15px;
+	color: #159e7e;
+}
+#price b{
+	font-size: 17px;
+}
+.buttons{
+	height: 5vh;
+	width: 50%;
+	font-size: 12px;
+}
+}
+
+@media only screen and (min-width: 531px) and (max-width: 750px){
+.sectionimages h1{
+	font-size: 12px;
+}.sectiongrid{
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 40px;
+}
+#icons div{
+	width: 22%;
+	margin: 0;
+}
+#icons div span{
+	font-size: 13px;
+}
+#icons div p{
+	font-size: 7px;
+}
+#price{
+	font-size: 15px;
+}
+#price b{
+	font-size: 17px;
+}
+.buttons{
+	height: 5vh;
+	width: 70%;
+	font-size: 12px;
+}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+
+.sectionimages h1{
+	font-size: 14px;
+}.sectiongrid{
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 50px;
+	grid-row-gap: 40px;
+}
+#icons div{
+	width: 22%;
+	margin: 0;
+}
+#icons div span{
+	font-size: 16px;
+}
+#icons div p{
+	font-size: 10px;
+}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+	.sectiongrid{
+	grid-column-gap: 20px;
+	grid-row-gap: 40px;
+}
+.sectionimages h1{
+	font-size: 14px;
+}
+.sectionimages p{
+	font-size: 14px;
+	text-align: justify;
+	padding: 5px;
+}
+#icons div{
+	width: 20%;
+	margin: 0;
+}
+#icons div span{
+	font-size: 14px;
+}
+#icons div p{
+	font-size: 8px;
+}
+#price{
+	font-size: 17px;
+}
+#price b{
+	font-size: 19px;
+}
+.buttons{
+	height: 5vh;
+	width: 60%;
+	font-size: 13px;
+}	
+}

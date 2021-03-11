@@ -1,0 +1,229 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+section{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#allbooking{
+	width: 50%;
+	margin: 0 auto;
+}
+#reservation{
+	width: 100%;
+	background-color: #f4f4f4;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+}
+#reservation div{
+	margin-bottom: 3%;
+}
+#reservation div p{
+	color: #000;
+	margin-bottom: 2px;
+}
+#rheader{
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+}
+#rheader h1{
+	color: #1a1a1a; 
+}
+#bform{
+	width: 90%;
+	margin: 0 auto;
+}
+#bform div{
+	width: 100%;
+	text-align: center;
+}
+#bform div h3{
+	color: #1a1a1a;
+	margin-top: 7%;
+}
+.success{
+	color: green;
+	font-size: 14px;
+}
+.error{
+	color: red;
+	font-size: 14px;
+}
+#checkin{
+	margin: 0 auto;
+	width: 90%;
+}
+.ptags{
+	width: 30%;
+	display: inline-block;
+	font-size: 18px;
+}
+.binputs{
+	width: 50%;
+	display: inline-block;
+	margin-left: 5%;
+	height: 5vh;
+	padding-left: 5px;
+	border: none;
+}
+.binputs:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .8s ease;
+}
+.select select{
+	width: 51.2%;
+	height: 5.5vh;
+	border: none;
+}
+.select select:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .8s ease;
+}
+#checkin input{
+	border: none;
+}
+
+#night select{
+	height: 5vh;
+}
+
+#checkout div{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+#checkout p{
+	padding-top: 3px;
+}
+#out{
+	background-color: #fff;
+	margin-bottom: 5px;
+	vertical-align: top;
+	padding-top: 5px;
+}
+#checkout button{
+	margin-top: 5px;
+	height: 4vh;
+	background-color: #1a1a1a;
+	color: #fff;
+	border: none;
+	padding: 2px 5px;
+}
+.buttons:hover{
+	cursor: pointer;
+	background-color: #1a1a1a;
+	color: #000;
+	transition: all .8s ease;
+
+}
+.room{
+	width: 50%;
+	display: inline-block;
+	margin-left: 5%;
+	height: 5vh;
+	padding: 5px;
+}
+
+#rbutton{
+	width: 100%;
+	margin-top: 10%;
+	text-align: center;
+}
+.buttons{
+	height: 5vh;
+	width: 40%;
+	padding: 5px 10px 5px 10px ;
+	border: none;
+	background-color: #000;
+	color: #f4f4f4;
+	font-size: 14px;
+	margin-right: 10%;
+}
+.buttons:hover{
+	cursor: pointer;
+	background-color: #1a1a1a;
+	color: #000;
+	transition: all .8s ease;
+
+}
+@media only screen and (min-width: 751px) and (max-width: 1100px){
+
+#allbooking{
+	width: 70%;
+}
+}
+
+@media only screen and (min-width:420px) and (max-width: 750px){
+
+#allbooking{
+	width: 80%;
+}
+#rheader h1{
+	font-size: 20px;
+}
+.ptags{
+	width: 40%;
+	display: inline-block;
+	font-size: 15px;
+}
+.binputs{
+	width: 50%;
+	display: inline-block;
+	margin-left: 5%;
+	height: 4vh;
+	padding-left: 5px;
+}
+.select select{
+	width: 51.2%;
+	height: 4.5vh;
+}
+#paymentinfo h3{
+	font-size: 16px;
+}
+.buttons{
+	height: 4vh;
+	font-size: 12px;
+}
+}
+@media only screen and (min-width:200px) and (max-width: 420px){
+
+#allbooking{
+	width: 90%;
+}
+#rheader h1{
+	font-size: 18px;
+}
+.ptags{
+	width: 45%;
+	display: inline-block;
+	font-size: 12px;
+}
+.binputs{
+	width: 45%;
+	display: inline-block;
+	margin-left: 5%;
+	height: 4vh;
+	padding-left: 5px;
+	font-size: 12px;
+}
+.select select{
+	width: 46.2%;
+	height: 4.5vh;
+	font-size: 12px;
+}
+#checkout p{
+	width: 44%;
+}
+#checkout input{
+	width: 45%;
+}
+#paymentinfo h3{
+	font-size: 14px;
+}
+.buttons{
+	height: 4vh;
+	font-size: 12px;
+}
+}

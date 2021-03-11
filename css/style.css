@@ -1,0 +1,708 @@
+body{
+	margin: 0;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: ;
+}
+
+#imgcontainer2{
+	width: 96%;
+	height: auto;
+	margin: 0 auto;
+	background-color: rgb(0,0,0,0.7);
+	position: relative;
+	z-index: 100;
+}
+#imgcontainer2:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.slider2{
+	position: relative;
+}
+
+.images2{
+	width: 100%;
+	margin: 0;
+	height: 80vh;
+	background: inset;
+	animation-name: macdels;
+	animation-duration: .8s;
+	animation-timing-function: linear;
+	filter: brightness(30%);
+}
+@keyframes macdels{
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}	
+}
+
+/*@keyframes macdel{
+	from{
+		transform: translateX(0px); opacity: 0;
+	}
+	to{
+		transform: translateY(0); opacity: 1;
+	}
+}
+*/
+#nav{
+	width: 68%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 45px;
+}
+#slidertitle2 {
+	vertical-align: top;
+	position: absolute;
+	width: 100%;
+	height: 79vh;
+	margin: 0;
+	text-align: center;
+	z-index: 200;
+}
+#slidertalk2{
+	margin-top: 250px;
+	color: #159e7e;
+	font-family: arial;
+}
+#smalltitle2{
+	font-size: 22px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+#bigtitle2{
+	font-size: 30px;
+}
+
+
+/**********************************************************************************************/
+					/*******SECTION******/
+/**********************************************************************************************/
+#section{
+	margin-top: 0;
+}
+#checkcontainer{
+	margin-top: 0;
+	width: 100%;
+	height: 25vh;
+	text-align: center;
+	background-color: #f5f4f6;
+	padding-top: 20px;
+}
+#checkcontainer h1{
+	margin-top: 0px;
+	color: #159e7e;
+
+}
+.check input{
+	width: 60%;
+	height: 4vh;
+	padding-left: 5px;
+}
+#days{
+	width: 60%;
+	height: 4.5vh;
+}
+#checkgrid{
+	display: grid;
+	width: 85%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 0 auto;
+	text-align: left;
+	margin-right: 20px;
+}
+.buttons{
+	margin-top: 50px;
+	height: 5vh;
+	width: 60%;
+	padding: 5px 10px 5px 10px ;
+	border: none;
+	background-color: #159e7e;
+	color: #fff;
+	font-size: 14px;
+}
+.buttons:hover{
+	cursor: pointer;
+	background-color: #1a1a1a;
+	color: #fff;
+	transition: all .8s ease;
+
+}
+#apartmentcontainer{
+	padding-top: 30px;
+	vertical-align: top
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	margin-left: 7%;
+	margin-bottom: 2%;
+}
+#apartmentcontainer h1{
+	color: #159e7e;
+	font-size: 18px;
+	margin-left: 50px;
+}
+.apartmentslider{
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+	position: absolute;
+	z-index: -100;
+	animation-name: del;
+	animation-duration: .6s;
+	animation-timing-function: linear;
+}
+@keyframes del{
+	from{
+		transform: translateX(-100px); opacity: 0;
+	}
+	to{
+		transform: translateY(0); opacity: 1;
+	}
+}
+
+.apartments{
+	width: 40%;
+	display: inline-block;
+}
+.apartments img{
+	margin-top: 20px;
+	width: 100%;
+}
+.apartmenttext{
+	width: 55%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+.apartmenttitle{
+	font-weight: bold;
+}
+#price{
+	color: #159e7e;
+	margin-right: 20px;
+	font-weight: bold;
+}
+#allangles{
+	top: px;
+	z-index: 100px;
+	float: right;
+	margin-right: 5%;
+}
+.angles{
+	font-size: 30px;
+}
+#angles{
+	font-size: 22px;
+	border-radius: 50%;
+	background-color: #159e7e;
+	color: #fff;
+	padding: 3px 10px;
+}
+#apbuttons{
+	width: 30%;
+	margin-top: 5%;
+}
+#apbuttons:hover{
+	cursor: pointer;
+	background-color: #1a1a1a;
+	color: #fff;
+	transition: all .8s ease;
+}
+
+#subsection{
+	width: 100%;
+	margin-top: 30%;
+
+}
+#imgcontainer2{
+	width: 100%;
+	height: 50vh;
+	filter: brightness(20%);
+	background-image: url("../img/bgimg6.jpg");
+	background-attachment: fixed;
+}
+#grid{
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 85%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.griddivs{
+	height: 5vh;
+	border-radius: 50px;
+}
+.griddivs img{
+	width: 80%;
+	height: 30vh;
+	border-radius: 100px;
+	filter: brightness(80%);
+}
+#testimonials{
+	width: 100%;
+	background-color: #159e7e;
+	color: #fff;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#testimonials div{
+	width: 85%;
+	margin: 0 auto;
+}
+#testimonials h1{
+	margin-top: 0px;
+	font-size: 22px;
+}
+
+#gallery{
+	width: 100%;
+	padding-top: 4%;
+	margin-bottom: 2%;
+}
+#gallery h2{
+	color: #159e7e;
+	text-align: center;
+	margin-top: 0;
+}
+#gallery1{
+	width: 85%;
+	margin: 0 auto;
+	padding-bottom: 3%;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 20px;
+}
+#gallery div img{
+	width: 100%;
+}
+#gallery div img:hover{
+	opacity: 0.8;
+}
+#one{
+	grid-column: 1/5;
+	grid-row: 1/5;
+}
+#one img{
+	height: 54vh;
+}
+#two{
+	grid-row: 1/3;
+	grid-column: 5/7;
+}
+#two img{
+	height: 25vh;
+}
+#three{
+	grid-row: 1/3;
+	grid-column: 7/9;
+}
+#three img{
+	height: 25vh;
+}
+#four{
+	grid-row: 3/5;
+	grid-column: 5/7;
+}
+#four img{
+	height: 25vh;
+}
+#five{
+	grid-row: 3/5;
+	grid-column: 7/9;
+}
+#five img{
+	height: 25vh;
+}
+#six{
+	grid-row: 5/7;
+	grid-column: 1/3;
+}
+#six img{
+	height: 25vh;
+}
+#seven{
+	grid-row: 5/7;
+	grid-column: 3/5;
+}
+#seven img{
+	height: 25vh;
+}
+#eight{
+	grid-row: 5/7;
+	grid-column: 5/7;
+}
+#eight img{
+	height: 25vh;
+}
+#nine{
+	grid-row: 5/7;
+	grid-column: 7/9;
+}
+#nine img{
+	height: 25vh;
+}
+
+#gbuttoncontainer{
+	margin: 0 auto;
+	width: 85%;
+	text-align: right;
+}
+#gbutton{
+	width: 20%;
+	margin-top: 1%;
+	margin-bottom: 4%;
+}
+#angleright{
+	margin-left: 5px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px){
+
+.images2{
+	height: 40vh;
+}
+#slidertitle2 {
+	height: 40.7vh;
+}
+#slidertalk2{
+	margin-top: 150px;
+}
+#smalltitle2{
+	font-size: 12px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+#bigtitle2{
+	font-size: 15px;
+}
+
+
+/**********************************************************************************************/
+					/*******SECTION******/
+/**********************************************************************************************/
+#section{
+	margin-top: 0;
+}
+#checkcontainer{
+	margin-top: 0;
+	width: 100%;
+	height: 35vh;
+	text-align: center;
+	background-color: #f5f4f6;
+	padding-top: 20px;
+}
+#checkcontainer h1{
+	margin-top: 0px;
+	font-size: 15px;
+	color: #159e7e;
+
+}
+.check p{
+	font-size: 12px;
+}
+.check input{
+	width: 60%;
+	height: 4vh;
+	padding-left: 5px;
+}
+#days{
+	width: 60%;
+	height: 4.5vh;
+}
+#checkgrid{
+	grid-template-columns: 1fr 1fr;
+}
+.buttons{
+	width: 85%;
+	padding: 5px 5px 5px 5px ;
+	font-size: 12px;
+	margin-top: 35px;
+}
+#apartmentcontainer{
+	padding-top: 30px;
+	margin-left: 7%;
+	margin-bottom: 2%;
+}
+#apartmentcontainer h1{
+	font-size: 15px;
+	margin-left: 50px;
+}
+.apartmentslider{
+	width: 95%;
+}
+.apartments img{
+	height: 20vh;
+}
+.apartmenttext{
+	font-size: 10px;
+	margin-top: 10px;
+}
+.none{
+	display: none;
+}
+.apartmenttitle{
+	font-weight: bold;
+}
+#price{
+	display: none;
+}
+#allangles{
+	top: -5px;
+	margin-right: 5%;
+}
+.angles{
+	font-size: 30px;
+}
+#angles{
+	font-size: 14px;
+	padding: 2px 5px;
+}
+#apbuttons{
+	width: 70%;
+	margin-top: 2%;
+	font-size: 12px;
+	height: 4vh;
+}
+
+#subsection{
+	width: 100%;
+	margin-top: 200px;
+
+}
+#imgcontainer2{
+	width: 100%;
+	height: 30vh;
+	filter: brightness(20%);
+	background-image: url("../img/bgimg6.jpg");
+	background-attachment: fixed;
+}
+#grid{
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 85%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.griddivs{
+	height: 5vh;
+	border-radius: 50px;
+}
+.griddivs img{
+	width: 80%;
+	height: 30vh;
+	border-radius: 100px;
+	filter: brightness(80%);
+}
+#testimonials{
+	width: 100%;
+	background-color: #159e7e;
+	color: #fff;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#testimonials div{
+	width: 85%;
+	margin: 0 auto;
+}
+#testimonials h1{
+	margin-top: 0px;
+	font-size: 16px;
+}
+#testimonials p{
+	font-size: 12px;
+}
+#gallery{
+	width: 100%;
+	padding-top: 5%;
+}
+#gallery h2{
+	font-size: 15px;
+	color: #1a1a1a;
+	margin-left: 3%;
+}
+#gallery1{
+	width: 85%;
+	margin: 0 auto;
+	padding-bottom: 3%;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 10px;
+}
+#gallery div img{
+	width: 100%;
+}
+#one img{
+	height: 28vh;
+}
+#two img{
+	height: 13vh;
+}
+#three img{
+	height: 13vh;
+}
+#four img{
+	height: 13vh;
+}
+#five img{
+	height: 13vh;
+}
+#six img{
+	height: 13vh;
+}
+#seven img{
+	height: 13vh;
+}
+#eight img{
+	height: 13vh;
+}
+#nine img{
+	height: 13vh;
+}
+#gbuttoncontainer{
+	margin: 0 auto;
+	width: 85%;
+	text-align: right;
+}
+#gbutton{
+	width: 50%;
+	margin-top: 1%;
+	margin-bottom: 4%;
+}
+#angleright{
+	margin-left: 5px;
+}	
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+.images2{
+	width: 100%;
+	margin: 0;
+	height: 60vh;
+}
+#checkcontainer{
+	margin-top: 0;
+	width: 100%;
+	height: 35vh;
+	text-align: center;
+	background-color: #f5f4f6;
+	padding-top: 20px;
+}
+#checkcontainer h1{
+	margin-top: 0px;
+	font-size: 15px;
+	color: #159e7e;
+
+}
+.check p{
+	font-size: 12px;
+}
+.check input{
+	width: 60%;
+	height: 4vh;
+	padding-left: 5px;
+}
+#days{
+	width: 60%;
+	height: 4.5vh;
+}
+#checkgrid{
+	grid-template-columns: 1fr 1fr;
+}
+.buttons{
+	width: 55%;
+	padding: 5px 5px 5px 5px ;
+	font-size: 12px;
+	margin-top: 35px;
+}
+#apartmentcontainer{
+	padding-top: 30px;
+	margin-left: 7%;
+	margin-bottom: 2%;
+}
+#apartmentcontainer h1{
+	font-size: 15px;
+	margin-left: 50px;
+}
+.apartmentslider{
+	width: 95%;
+}
+.apartments img{
+	height: 20vh;
+}
+.apartmenttext{
+	font-size: 10px;
+	margin-top: 10px;
+}
+.none{
+	display: block;
+}
+.apartmenttitle{
+	font-weight: bold;
+}
+#price{
+	display: none;
+}
+#allangles{
+	top: -5px;
+	margin-right: 5%;
+}
+.angles{
+	font-size: 30px;
+}
+#angles{
+	font-size: 14px;
+	padding: 2px 5px;
+}
+#apbuttons{
+	width: 50%;
+	margin-top: 2%;
+	font-size: 12px;
+	height: 4vh;
+}
+
+#subsection{
+	width: 100%;
+	margin-top: 200px;
+
+}
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px){
+.buttons{
+	width: 95%;
+	padding: 5px 5px 5px 5px ;
+}
+#apbuttons{
+	width: 40%;
+	margin-top: 0%;
+	font-size: 12px;
+	height: 4vh;
+}
+.apartmenttext{
+	font-size: 13px;
+	margin-top: 10px;
+}
+.none{
+	display: block;
+}
+.apartmenttitle{
+	font-weight: bold;
+}
+
+}
+
+
+
+
